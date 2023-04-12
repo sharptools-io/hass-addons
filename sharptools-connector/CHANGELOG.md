@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.7
+- Hotfix for an API change in Home Assistant 2023.4.x
+
 ## 1.0.4-1.0.6
 
 - Update climate entity to ignore `null` values for `target_temp_high` and `target_temp_low` when setting temperature
