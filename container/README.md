@@ -4,8 +4,8 @@ https://github.com/orgs/sharptools-io/packages
 
 You can find images for the various different architectures that Home Assistant supports.
 
-When using the image, you will need to expose port `8099`, map the `/data` directory to a directory on your host, and 
-expose the environment variables `STIO_HASS_URL`, `STIO_HASS_PORT`, and `STIO_HASS_TOKEN`. A description of the environment 
+When using the image, you will need to expose port `8099`, map the `/data` directory within the container to a directory on your host, and 
+set the environment variables `STIO_HASS_URL`, `STIO_HASS_PORT`, and `STIO_HASS_TOKEN`. A description of the environment 
 variables follows:
 
 
