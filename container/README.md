@@ -15,7 +15,7 @@ variables follows:
 | `STIO_HASS_PORT` | `8123` | The port that your Home Assistant interface runs on |
 | `STIO_HASS_TOKEN` | n/a | A [long lived access token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token) generated from your Home Assistant profile page | 
 
-How you run the container depends on what container orchestration platform you are using. Refer to the documentation for your container orchestratino utility for details on 
+How you run the container depends on what container orchestration platform you are using. Refer to the documentation for your container orchestration utility for details on 
 how to expose ports, map directories, or set environment variables. 
 
 An example `docker-compose.yml` file follows:
