@@ -11,7 +11,7 @@ variables follows:
 
 |ENV | Example | Description | 
 |---|---|---|
-| `STIO_HASS_URL`| `http://homeassistant.local` | The base URL to your Home Assistant instance<br />(includes the protocol, but excludes the port) |
+| `STIO_HASS_URL`| `http://homeassistant.local`<br/>`http://192.168.1.10`| The base URL to your Home Assistant instance<br />(includes the protocol, but excludes the port) |
 | `STIO_HASS_PORT` | `8123` | The port that your Home Assistant interface runs on |
 | `STIO_HASS_TOKEN` | n/a | A [long lived access token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token) generated from your Home Assistant profile page | 
 
