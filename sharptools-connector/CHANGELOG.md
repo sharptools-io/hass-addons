@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.8
+- Hotfix thermostat heating setpoint fallthrough
+
 ## 1.0.7
 - Hotfix for an API change in Home Assistant 2023.4.x
 
