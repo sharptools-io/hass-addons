@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.9
+- Fix: Maintain 'static' Album Art data when listening to the same artist/album
+- Fix: Support 4-speed fan devices
+
+<video src="https://github.com/sharptools-io/hass-addons/sharptools-connector/media/hass-4-speed.mov" controls="controls" style="max-width: 730px;">
+</video>
+
 ## 1.0.8
 - Hotfix thermostat heating setpoint fallthrough
 
