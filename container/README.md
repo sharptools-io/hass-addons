@@ -25,11 +25,20 @@ services:
   sharptools:
     image: ghcr.io/sharptools-io/sharptools-hass-addon-connector-amd64:latest
     ports:
-      - "80:8099"
+      - "8099:8099"
     volumes:
       - /your/local/data/path:/data
     environment:
       - STIO_HASS_URL=http://homeassistant.local
       - STIO_HASS_PORT=8123
       - STIO_HASS_TOKEN=YOUR-HASS_TOKEN
+```
+
+## Port Remapping
+If you already have a different service running on port `8099`, Docker and most container orchestration platforms support remapping the _container_ port to a different _host_ port. 
+
+Exposing container ports is most commonly in the format `hostPort:containerPort`. For example, if you wanted to access the SharpTools container on port `8888`, the `ports` section of your Docker Compose YAML would need to be modified like the following:
+```
+    ports:
+      - "8888:8099"
 ```
