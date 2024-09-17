@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+- Make `light` and `cover` service data excluded (use static definitions)
+- Improve logging if payload response size limit is exceeded (incl. calculated payload size)
+
 ## 1.0.9
 - Fix: Maintain 'static' Album Art data when listening to the same artist/album
 - Fix: Support 4-speed fan devices: [Four Speed Fan Speed Video Demonstration Link](https://github.com/sharptools-io/hass-addons/assets/966456/05c8a7c8-ecff-4bcd-8e26-ce9dd101c8ba)
