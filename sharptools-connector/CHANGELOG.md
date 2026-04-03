@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1
+- Improve handling of service `filter` targets
+- Filters out invalid service matches and reduces sync payload size
+
 ## 1.1.0
 - Make `light` and `cover` service data excluded (use static definitions)
 - Improve logging if payload response size limit is exceeded (incl. calculated payload size)
